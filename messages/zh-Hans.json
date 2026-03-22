@@ -1,0 +1,362 @@
+{
+  "nav": {
+    "home": "首页",
+    "hourlyRate": "时薪计算器",
+    "dayRate": "日费率计算器",
+    "retainer": "月费方案计算器",
+    "guide": "指南",
+    "privacy": "隐私",
+    "terms": "条款"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "ja": "日本語",
+    "zh-Hant": "繁體中文",
+    "zh-Hans": "简体中文"
+  },
+  "footer": {
+    "note": "给自由职业者、顾问和小型工作室使用的免费报价工具。"
+  },
+  "common": {
+    "calculator": "计算器",
+    "guide": "指南",
+    "formula": "公式",
+    "summary": "摘要",
+    "whenToUse": "适合用在",
+    "related": "相关",
+    "skipToMainContent": "跳到主要内容"
+  },
+  "home": {
+    "title": "不用电子表格，也能快速计算时薪、日费率和月费方案。",
+    "description": "Rate Kit 帮助自由职业者、顾问和小型工作室，从收入目标反推出真正可用的时薪、日费率和 retainer 报价。",
+    "eyebrow": "自由职业报价工具",
+    "primaryCta": "打开时薪计算器",
+    "secondaryCta": "了解时薪制与项目制的差异",
+    "toolsKicker": "核心工具",
+    "toolsTitle": "选择你需要的报价计算器",
+    "cards": {
+      "hourlyRate": {
+        "title": "时薪计算器",
+        "description": "用收入目标、可计费工时和固定成本，反推出合理时薪。",
+        "cta": "设置时薪"
+      },
+      "dayRate": {
+        "title": "日费率计算器",
+        "description": "根据收入目标和可计费天数，估算更适合对外提案的日费率。",
+        "cta": "估算日费率"
+      },
+      "retainer": {
+        "title": "月费方案计算器",
+        "description": "把你的时薪基准转成月费方案，并给 scope 变化和管理工作留出空间。",
+        "cta": "试算月费方案"
+      }
+    },
+    "audienceTitle": "适合谁使用",
+    "audience": [
+      "要给客户项目报价的自由职业者",
+      "正在设计服务套餐的顾问",
+      "需要整理日费率和月费方案的小型工作室",
+      "想把电子表格式报价变得更清楚的团队"
+    ],
+    "valueTitle": "为什么有用",
+    "value": [
+      "把收入目标变成实际价格",
+      "在报价前先看清固定成本",
+      "方便比较时薪、日费率和月费方案",
+      "更容易向客户解释定价逻辑"
+    ],
+    "faqKicker": "FAQ",
+    "faqTitle": "常见问题",
+    "faq": [
+      {
+        "question": "怎么判断自己的时薪是不是太低？",
+        "answer": "如果你的时薪只覆盖直接可计费的工时，却没有把行政、提案、税费和工具成本算进去，通常就偏低。先从收入目标开始倒推会更准确。"
+      },
+      {
+        "question": "我应该收时薪还是项目价？",
+        "answer": "如果 scope 不稳定、需要顾问式协作，时薪更合适；如果交付结果清晰，项目价通常更适合。很多自由职业者会根据项目类型混合使用。"
+      },
+      {
+        "question": "需要登录才能使用吗？",
+        "answer": "不用。Rate Kit 是免费网页工具，无需登录即可使用。"
+      }
+    ],
+    "meta": {
+      "title": "Rate Kit",
+      "description": "给自由职业者、顾问和小型工作室使用的时薪、日费率和月费方案计算器。"
+    }
+  },
+  "calculators": {
+    "hourlyRate": {
+      "meta": {
+        "title": "时薪计算器",
+        "description": "根据收入目标、可计费工时和固定成本，估算可持续的时薪。"
+      },
+      "title": "时薪计算器",
+      "description": "先设定收入目标和固定成本，再估算你在报价前真正需要的时薪。",
+      "formTitle": "设置目标时薪",
+      "fields": {
+        "annualIncome": "目标年收入",
+        "annualIncomeHint": "你希望这项业务一年产生的收入。",
+        "billableHoursPerWeek": "每周可计费工时",
+        "billableHoursPerWeekHint": "请使用真正能向客户收费的工时，而不是总工时。",
+        "workingWeeks": "每年工作周数",
+        "workingWeeksHint": "排除休假、空档和不可计费期间。",
+        "overhead": "固定成本百分比",
+        "overheadHint": "预留行政、工具、税费和缓冲空间。"
+      },
+      "results": {
+        "hourlyRate": "建议时薪",
+        "revenueTarget": "收入目标",
+        "billableHoursPerYear": "每年可计费工时",
+        "monthlyRevenueTarget": "每月收入目标",
+        "summary": "如果你希望支撑 {income}，并加入 {overhead} 固定成本，建议时薪约为 {rate}。"
+      },
+      "errors": {
+        "invalidNumbers": "请输入有效数字来估算时薪。",
+        "invalidRange": "收入、可计费工时和工作周数必须大于 0，固定成本至少为 0。"
+      },
+      "formulaRevenueTarget": "收入目标 = 年收入 × (1 + 固定成本 ÷ 100)",
+      "formulaHourlyRate": "时薪 = 收入目标 ÷ 每年可计费工时",
+      "usage": [
+        "设定新的自由职业时薪",
+        "检查当前报价是否仍然合理",
+        "准备客户提案和报价单",
+        "在成本上升后重新调整价格"
+      ],
+      "seo": {
+        "sections": [
+          {
+            "title": "如何计算时薪",
+            "paragraphs": [
+              "可持续的时薪不应该只看市场行情，更应该先从你的收入目标倒推。先算出需要的年收入，再除以现实可达成的可计费工时。",
+              "很多人忽略的是，并不是所有工作时间都能向客户收费。提案、行政、修改和运营时间都应该进入你的定价。"
+            ]
+          },
+          {
+            "title": "什么时候特别适合用这个工具",
+            "paragraphs": [
+              "当你要调整价格、进入新市场，或者发现旧时薪已经撑不起业务时，这个工具最有帮助。",
+              "先把时薪基准算清楚，之后做日费率、项目价和月费方案都会更容易。"
+            ]
+          }
+        ],
+        "faqTitle": "时薪计算器 FAQ",
+        "faq": [
+          {
+            "question": "固定成本应该包含哪些项目？",
+            "answer": "通常会包含行政工作、软件工具、税费、提案时间、项目空窗期和修改风险。"
+          },
+          {
+            "question": "我要先看市场行情，还是先看自己的收入目标？",
+            "answer": "两者都要看，但应先从自己的收入目标开始。市场行情能帮助你定位，却不保证你的报价真的可持续。"
+          }
+        ]
+      },
+      "relatedTitle": "想一起算日费率？",
+      "relatedDescription": "如果客户购买的是整天服务或 workshop，把收入目标转成日费率通常更好提案。",
+      "relatedCta": "打开日费率计算器"
+    },
+    "dayRate": {
+      "meta": {
+        "title": "日费率计算器",
+        "description": "根据收入目标、可计费天数和固定成本，估算合理日费率。"
+      },
+      "title": "日费率计算器",
+      "description": "从收入目标和可计费天数出发，估算更适合对外提案的日费率。",
+      "formTitle": "估算你的日费率",
+      "fields": {
+        "annualIncome": "目标年收入",
+        "annualIncomeHint": "你希望转成日费率提案的全年收入目标。",
+        "billableDaysPerMonth": "每月可计费天数",
+        "billableDaysPerMonthHint": "请使用真实可售出的工作天数，而不是日历天数。",
+        "workingMonths": "每年工作月份",
+        "workingMonthsHint": "排除休息、淡季和不可计费月份。",
+        "overhead": "固定成本百分比",
+        "overheadHint": "为准备、管理和执行风险留出空间。"
+      },
+      "results": {
+        "dayRate": "建议日费率",
+        "revenueTarget": "收入目标",
+        "billableDaysPerYear": "每年可计费天数",
+        "monthlyRevenueTarget": "每月收入目标",
+        "summary": "如果你希望支撑 {income}，并加入 {overhead} 固定成本，建议日费率约为 {rate}。"
+      },
+      "errors": {
+        "invalidNumbers": "请输入有效数字来估算日费率。",
+        "invalidRange": "收入、可计费天数和工作月份必须大于 0，固定成本至少为 0。"
+      },
+      "formulaRevenueTarget": "收入目标 = 年收入 × (1 + 固定成本 ÷ 100)",
+      "formulaDayRate": "日费率 = 收入目标 ÷ 每年可计费天数",
+      "usage": [
+        "workshop 或顾问日定价",
+        "按日计价的支持服务",
+        "工作室排期与报价规划",
+        "方便采购或预算审批使用"
+      ],
+      "seo": {
+        "sections": [
+          {
+            "title": "如何计算日费率",
+            "paragraphs": [
+              "日费率特别适合客户购买整段服务时间，而不是按小时拆分计价的场景。先估出年度收入目标，再除以现实可售出的工作日数。",
+              "对于专业性较高的服务来说，日费率通常比时薪更容易理解，也更适合写进提案和 SOW。"
+            ]
+          },
+          {
+            "title": "哪些情况适合用日费率",
+            "paragraphs": [
+              "比如 workshop、顾问日、策略陪跑、现场审核等，以整天价值交付的工作就很适合。",
+              "当客户需要一个清晰数字来做预算或流程审批时，日费率往往比时薪更好用。"
+            ]
+          }
+        ],
+        "faqTitle": "日费率计算器 FAQ",
+        "faq": [
+          {
+            "question": "每月可计费天数应该按多少来估？",
+            "answer": "建议保守估算。很多自由职业者扣掉销售、准备和行政之后，每月稳定可售出的天数并不会太高。"
+          },
+          {
+            "question": "日费率是不是等于时薪乘以 8 小时？",
+            "answer": "不一定。日费率还可以包含专注投入、准备成本和客户购买便利性，不只是单纯工时换算。"
+          }
+        ]
+      },
+      "relatedTitle": "也想试算月费方案？",
+      "relatedDescription": "如果服务是持续性的，月费方案通常会比反复报日费率更合适。",
+      "relatedCta": "打开月费方案计算器"
+    },
+    "retainer": {
+      "meta": {
+        "title": "月费方案计算器",
+        "description": "根据时薪、每月工时和 scope 缓冲，估算合理月费方案。"
+      },
+      "title": "月费方案计算器",
+      "description": "把你的时薪基准转成月费方案，并为修改、管理和 scope 变化留出空间。",
+      "formTitle": "试算月费方案",
+      "fields": {
+        "hourlyRate": "时薪",
+        "hourlyRateHint": "月费方案底下仍然想守住的时薪基准。",
+        "hoursPerMonth": "每月包含工时",
+        "hoursPerMonthHint": "以交付工时为主，而不是每一分钟沟通。",
+        "scopeBuffer": "Scope 缓冲百分比",
+        "scopeBufferHint": "为修改、报告和往返沟通留出空间。"
+      },
+      "results": {
+        "suggestedRetainer": "建议月费",
+        "baseRetainer": "基础月费",
+        "annualizedRevenue": "年化收入",
+        "effectiveHourly": "实际时薪",
+        "summary": "如果按 {hourlyRate}、每月 {hours} 小时并加入 {buffer} 缓冲，建议月费约为 {retainer}。"
+      },
+      "errors": {
+        "invalidNumbers": "请输入有效数字来估算月费方案。",
+        "invalidRange": "时薪和每月工时必须大于 0，缓冲百分比至少为 0。"
+      },
+      "formulaBaseRetainer": "基础月费 = 时薪 × 每月工时",
+      "formulaRetainer": "建议月费 = 基础月费 × (1 + 缓冲 ÷ 100)",
+      "usage": [
+        "月度顾问支持",
+        "持续型 advisory 合作",
+        "设计、内容和运营月费方案",
+        "把零散时薪账单改成固定月费"
+      ],
+      "seo": {
+        "sections": [
+          {
+            "title": "如何定义月费方案",
+            "paragraphs": [
+              "月费方案通常应该从你想保护的时薪基准和每月预计投入工时开始，再加上修改、报告和管理成本的缓冲。",
+              "看起来稳定的月费方案，实际中往往会随着合作推进慢慢扩大 scope，所以一开始就留出空间很重要。"
+            ]
+          },
+          {
+            "title": "为什么月费方案需要缓冲",
+            "paragraphs": [
+              "月报、会议、临时需求和额外确认，都是月费方案里最容易增加的隐性工时。没有缓冲的话，合作越久，利润率通常越容易被压缩。",
+              "使用月费方案计算器，也能更容易向客户解释为什么月费不只是简单的时薪乘以工时。"
+            ]
+          }
+        ],
+        "faqTitle": "月费方案计算器 FAQ",
+        "faq": [
+          {
+            "question": "缓冲应该加多少比较合理？",
+            "answer": "取决于服务内容，但只要有会议、报告、修改或临时需求，通常都建议至少加入基础缓冲。"
+          },
+          {
+            "question": "月费方案一定要比时薪便宜吗？",
+            "answer": "不一定。月费方案提供可预期性和优先支持，按服务内容不同，实际单价可能相同甚至更高。"
+          }
+        ]
+      },
+      "relatedTitle": "想先比较不同报价模型？",
+      "relatedDescription": "在决定是否做月费方案之前，先理解时薪制和项目制的差异会更容易判断。",
+      "relatedCta": "阅读指南"
+    }
+  },
+  "guide": {
+    "meta": {
+      "title": "时薪制 vs 项目制",
+      "description": "了解什么情况下适合用时薪制，什么情况下更适合项目制。"
+    },
+    "title": "时薪制和项目制，应该怎么选？",
+    "description": "时薪制卖的是时间，项目制卖的是结果。哪一种更适合，取决于 scope 是否明确、风险由谁承担，以及你希望客户如何理解你的价值。",
+    "quickTitle": "先说结论",
+    "quickText": "如果 scope 还不稳定，用时薪制通常更安全；如果交付结果已经很明确，项目制通常更容易成交。很多自由职业者会根据项目类型混合使用。",
+    "formulaHourly": "时薪制 = 时薪 × 预估工时",
+    "formulaProject": "项目制 = 预估工时 + 风险缓冲 + 修改缓冲",
+    "exampleTitle": "一个简单例子",
+    "exampleText": "以一场预计 10 小时的策略 workshop 为例，时薪制更能承受 scope 变化，项目制则能给客户一个更清晰的固定数字。",
+    "table": {
+      "metric": "项目",
+      "hourly": "时薪制",
+      "project": "项目制",
+      "estimatedHours": "预估工时",
+      "basePrice": "基础价格",
+      "scopeRisk": "Scope 变化",
+      "clientPaysMore": "scope 增长时更容易追加费用",
+      "youCarryRisk": "scope 增长时由你承担更多风险"
+    },
+    "whenHourlyTitle": "适合时薪制的情况",
+    "whenProjectTitle": "适合项目制的情况",
+    "whenHourly": [
+      "scope 还不明确",
+      "工作更偏顾问或协作",
+      "客户需要时间透明度",
+      "你想保护自己不被模糊需求拖累"
+    ],
+    "whenProject": [
+      "交付结果定义清楚",
+      "客户偏好固定价格",
+      "你能相对准确地估工",
+      "希望客户买的是结果而不是时间"
+    ],
+    "mistakeTitle": "常见错误",
+    "mistakeText": "很多人在切换到项目制时，忘了把修改、沟通和管理工时一起算进价格里。即使采用项目制，底层仍然应该有一个清晰的时薪基准。",
+    "ctaTitle": "先建立自己的基准单价",
+    "ctaText": "只要先把时薪基准算清楚，日费率、项目价和月费方案都会更好设计。",
+    "hourlyCta": "打开时薪计算器",
+    "retainerCta": "打开月费方案计算器"
+  },
+  "legal": {
+    "privacy": {
+      "title": "隐私政策",
+      "paragraphs": [
+        "Rate Kit 设计为无需创建账号即可使用。你可以不登录直接使用所有计算器。",
+        "如果未来启用分析，也只会用于理解流量、热门页面和使用行为。",
+        "如果你通过邮件或表单联系我们，提供的信息只会用于回复消息或改善产品。"
+      ]
+    },
+    "terms": {
+      "title": "服务条款",
+      "paragraphs": [
+        "Rate Kit 是信息型计算工具。在把结果用于报价、合同、税务或重要商业决策前，请务必自行再次确认。",
+        "你同意不滥用网站、不破坏服务可用性，也不把本工具当作法律、税务或财务建议。",
+        "服务内容可能会随着时间调整。如需支持，请使用正式网站上提供的联系方式。"
+      ]
+    }
+  }
+}

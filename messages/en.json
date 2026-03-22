@@ -1,0 +1,362 @@
+{
+  "nav": {
+    "home": "Home",
+    "hourlyRate": "Hourly Rate Calculator",
+    "dayRate": "Day Rate Calculator",
+    "retainer": "Retainer Calculator",
+    "guide": "Guide",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "ja": "日本語",
+    "zh-Hant": "繁體中文",
+    "zh-Hans": "简体中文"
+  },
+  "footer": {
+    "note": "Free freelance pricing tools for consultants, creators, and small studios."
+  },
+  "common": {
+    "calculator": "Calculator",
+    "guide": "Guide",
+    "formula": "Formula",
+    "summary": "Summary",
+    "whenToUse": "When to use it",
+    "related": "Related",
+    "skipToMainContent": "Skip to main content"
+  },
+  "home": {
+    "title": "Calculate hourly rates, day rates, and retainers without a spreadsheet.",
+    "description": "Rate Kit helps freelancers, consultants, and small studios turn income targets into practical hourly, day, and retainer pricing.",
+    "eyebrow": "Freelance pricing tools",
+    "primaryCta": "Open hourly rate calculator",
+    "secondaryCta": "Learn hourly vs project pricing",
+    "toolsKicker": "Core tools",
+    "toolsTitle": "Pick the pricing calculator you need",
+    "cards": {
+      "hourlyRate": {
+        "title": "Hourly rate calculator",
+        "description": "Turn your target income, billable hours, and overhead into a practical hourly rate.",
+        "cta": "Set your hourly rate"
+      },
+      "dayRate": {
+        "title": "Day rate calculator",
+        "description": "Estimate a sustainable day rate from your annual income target and expected billable days.",
+        "cta": "Estimate a day rate"
+      },
+      "retainer": {
+        "title": "Retainer calculator",
+        "description": "Convert your hourly target into a monthly retainer with room for scope changes and admin work.",
+        "cta": "Price a retainer"
+      }
+    },
+    "audienceTitle": "Who this is for",
+    "audience": [
+      "Freelancers pricing client work",
+      "Consultants designing service packages",
+      "Studios reviewing retainers and day rates",
+      "Operators replacing rough spreadsheet pricing"
+    ],
+    "valueTitle": "Why it is useful",
+    "value": [
+      "Turns income goals into real pricing",
+      "Makes overhead visible before you quote",
+      "Helps compare hourly, day, and retainer models",
+      "Supports cleaner pricing conversations with clients"
+    ],
+    "faqKicker": "FAQ",
+    "faqTitle": "Common questions",
+    "faq": [
+      {
+        "question": "How do I know if my hourly rate is too low?",
+        "answer": "If your rate only covers the hours you directly invoice and ignores non-billable work, taxes, and overhead, it is usually too low. Start with a revenue target, not only the market average."
+      },
+      {
+        "question": "Should I charge hourly or per project?",
+        "answer": "Hourly pricing fits uncertain scopes and advisory work. Project pricing fits clearer deliverables and value-based outcomes. Many freelancers use both depending on the engagement."
+      },
+      {
+        "question": "Can I use this without an account?",
+        "answer": "Yes. Rate Kit is a free web tool and works without sign-in."
+      }
+    ],
+    "meta": {
+      "title": "Rate Kit",
+      "description": "Free hourly rate, day rate, and retainer calculators for freelancers, consultants, and small studios."
+    }
+  },
+  "calculators": {
+    "hourlyRate": {
+      "meta": {
+        "title": "Hourly Rate Calculator",
+        "description": "Free hourly rate calculator for freelancers and consultants. Estimate a sustainable hourly rate from income target, billable hours, and overhead."
+      },
+      "title": "Hourly rate calculator",
+      "description": "Set an income target, add overhead, and estimate the hourly rate you need before you send a quote.",
+      "formTitle": "Set your target rate",
+      "fields": {
+        "annualIncome": "Target annual income",
+        "annualIncomeHint": "How much you want the business to generate for you in a year.",
+        "billableHoursPerWeek": "Billable hours per week",
+        "billableHoursPerWeekHint": "Use billable hours, not total working hours.",
+        "workingWeeks": "Working weeks per year",
+        "workingWeeksHint": "Exclude holidays, breaks, and non-billable gaps.",
+        "overhead": "Overhead percentage",
+        "overheadHint": "Add space for admin work, tools, taxes, and buffer."
+      },
+      "results": {
+        "hourlyRate": "Suggested hourly rate",
+        "revenueTarget": "Revenue target",
+        "billableHoursPerYear": "Billable hours per year",
+        "monthlyRevenueTarget": "Monthly revenue target",
+        "summary": "To support {income} with {overhead} overhead, your target hourly rate is {rate}."
+      },
+      "errors": {
+        "invalidNumbers": "Enter valid numbers to estimate an hourly rate.",
+        "invalidRange": "Income, billable hours, and working weeks must be greater than 0. Overhead must be at least 0."
+      },
+      "formulaRevenueTarget": "revenue target = income × (1 + overhead ÷ 100)",
+      "formulaHourlyRate": "hourly rate = revenue target ÷ yearly billable hours",
+      "usage": [
+        "Setting a new freelance rate",
+        "Checking whether your current rate still works",
+        "Preparing client proposals",
+        "Reviewing pricing after costs increase"
+      ],
+      "seo": {
+        "sections": [
+          {
+            "title": "How to calculate an hourly rate",
+            "paragraphs": [
+              "A sustainable hourly rate starts with your income target, not just competitor prices. First estimate the annual revenue you need, then divide that number by your realistic billable hours.",
+              "The key mistake is treating all working hours as billable. Most freelancers and consultants also spend time on sales, admin, revisions, and operations, so your pricing should include that reality."
+            ]
+          },
+          {
+            "title": "When this calculator is most useful",
+            "paragraphs": [
+              "Use an hourly rate calculator when you are revising your baseline pricing, entering a new market, or realizing that your old rate no longer covers the business side of your work.",
+              "It is especially useful before you create retainers, project prices, or package tiers because those offers often start from a solid hourly benchmark."
+            ]
+          }
+        ],
+        "faqTitle": "Hourly rate calculator FAQ",
+        "faq": [
+          {
+            "question": "What counts as overhead in freelance pricing?",
+            "answer": "Overhead can include admin work, software, taxes, time between projects, revision risk, and non-billable client communication."
+          },
+          {
+            "question": "Should I use market rates or my own target income?",
+            "answer": "Use both, but start with your own target income. Market benchmarks can guide positioning, while your internal numbers tell you whether the rate is actually sustainable."
+          }
+        ]
+      },
+      "relatedTitle": "Need a day rate too?",
+      "relatedDescription": "If clients buy full days or workshops, convert your income target into a clearer day-based price.",
+      "relatedCta": "Open day rate calculator"
+    },
+    "dayRate": {
+      "meta": {
+        "title": "Day Rate Calculator",
+        "description": "Free day rate calculator for freelancers, consultants, and studios. Estimate a sustainable day rate from annual income target, billable days, and overhead."
+      },
+      "title": "Day rate calculator",
+      "description": "Estimate a practical day rate from your income target, expected billable days, and operating overhead.",
+      "formTitle": "Estimate your day rate",
+      "fields": {
+        "annualIncome": "Target annual income",
+        "annualIncomeHint": "Your yearly revenue goal before you set a day-based offer.",
+        "billableDaysPerMonth": "Billable days per month",
+        "billableDaysPerMonthHint": "Use realistic delivery days, not full calendar days.",
+        "workingMonths": "Working months per year",
+        "workingMonthsHint": "Exclude slow periods, breaks, and unpaid time off.",
+        "overhead": "Overhead percentage",
+        "overheadHint": "Add room for preparation, admin, and delivery risk."
+      },
+      "results": {
+        "dayRate": "Suggested day rate",
+        "revenueTarget": "Revenue target",
+        "billableDaysPerYear": "Billable days per year",
+        "monthlyRevenueTarget": "Monthly revenue target",
+        "summary": "To support {income} with {overhead} overhead, your target day rate is {rate}."
+      },
+      "errors": {
+        "invalidNumbers": "Enter valid numbers to estimate a day rate.",
+        "invalidRange": "Income, billable days, and working months must be greater than 0. Overhead must be at least 0."
+      },
+      "formulaRevenueTarget": "revenue target = income × (1 + overhead ÷ 100)",
+      "formulaDayRate": "day rate = revenue target ÷ yearly billable days",
+      "usage": [
+        "Workshop or strategy day pricing",
+        "Consulting engagements sold by the day",
+        "Agency or studio delivery planning",
+        "Simplifying pricing for procurement teams"
+      ],
+      "seo": {
+        "sections": [
+          {
+            "title": "How to calculate a day rate",
+            "paragraphs": [
+              "A day rate is useful when clients buy blocks of time rather than open-ended hourly work. To calculate it, estimate your yearly revenue target and divide it by realistic billable days per year.",
+              "The more specialized your work is, the more a day rate can simplify pricing and reduce friction in quotes, statements of work, and internal approvals."
+            ]
+          },
+          {
+            "title": "When day rates work well",
+            "paragraphs": [
+              "Day rates work well for workshops, consulting sprints, production days, and projects where the client values availability and intensity more than exact time logs.",
+              "They are often easier to sell than hourly pricing when stakeholders want a single number for planning, budgeting, or procurement."
+            ]
+          }
+        ],
+        "faqTitle": "Day rate calculator FAQ",
+        "faq": [
+          {
+            "question": "How many billable days per month should I assume?",
+            "answer": "Use a conservative number. Many freelancers only bill 8 to 15 days per month consistently once sales, admin, and delivery prep are included."
+          },
+          {
+            "question": "Should a day rate just be hourly rate times 8?",
+            "answer": "Not always. A day rate can include focus, prep, client convenience, and reduced scheduling friction, so it often deserves its own pricing logic."
+          }
+        ]
+      },
+      "relatedTitle": "Want a monthly option?",
+      "relatedDescription": "If the client needs ongoing support, convert your benchmark into a monthly retainer instead of repeating day quotes.",
+      "relatedCta": "Open retainer calculator"
+    },
+    "retainer": {
+      "meta": {
+        "title": "Retainer Calculator",
+        "description": "Free retainer calculator for freelancers and consultants. Convert your hourly rate and monthly hours into a retainer price with scope buffer."
+      },
+      "title": "Retainer calculator",
+      "description": "Turn your hourly benchmark into a monthly retainer that leaves room for admin, revisions, and changing scope.",
+      "formTitle": "Price your retainer",
+      "fields": {
+        "hourlyRate": "Hourly rate",
+        "hourlyRateHint": "Use the rate you want to protect underneath the retainer.",
+        "hoursPerMonth": "Hours included per month",
+        "hoursPerMonthHint": "Estimate delivery hours only, not every communication minute.",
+        "scopeBuffer": "Scope buffer percentage",
+        "scopeBufferHint": "Add room for revisions, reporting, and overflow."
+      },
+      "results": {
+        "suggestedRetainer": "Suggested monthly retainer",
+        "baseRetainer": "Base monthly value",
+        "annualizedRevenue": "Annualized revenue",
+        "effectiveHourly": "Effective hourly rate",
+        "summary": "At {hourlyRate} for {hours} hours with a {buffer} buffer, your suggested retainer is {retainer}."
+      },
+      "errors": {
+        "invalidNumbers": "Enter valid numbers to price a retainer.",
+        "invalidRange": "Hourly rate and monthly hours must be greater than 0. Scope buffer must be at least 0."
+      },
+      "formulaBaseRetainer": "base retainer = hourly rate × monthly hours",
+      "formulaRetainer": "suggested retainer = base retainer × (1 + buffer ÷ 100)",
+      "usage": [
+        "Monthly consulting support",
+        "Ongoing advisory retainers",
+        "Design, content, or operations retainers",
+        "Replacing loose hourly invoicing with a fixed monthly price"
+      ],
+      "seo": {
+        "sections": [
+          {
+            "title": "How to price a retainer",
+            "paragraphs": [
+              "A retainer usually starts from your protected hourly benchmark and the hours you expect to deliver each month. From there, add a scope buffer for revisions, admin, and client communication.",
+              "This approach helps you avoid underpricing a monthly commitment that looks simple on paper but grows in hidden effort over time."
+            ]
+          },
+          {
+            "title": "Why retainers need a buffer",
+            "paragraphs": [
+              "Retainers often feel stable to the client, but they can drift in scope if reporting, meetings, and urgent requests are not priced in. A built-in buffer protects the relationship and the economics.",
+              "Using a retainer calculator also makes it easier to explain why the monthly fee is higher than a plain hours-times-rate number."
+            ]
+          }
+        ],
+        "faqTitle": "Retainer calculator FAQ",
+        "faq": [
+          {
+            "question": "How much scope buffer should I add?",
+            "answer": "That depends on the service, but many retainers need at least a small buffer for communication, reporting, revisions, and uneven monthly demand."
+          },
+          {
+            "question": "Should a retainer always be cheaper than hourly billing?",
+            "answer": "Not necessarily. Retainers offer predictability and priority access, which can justify equal or higher effective pricing depending on the scope and relationship."
+          }
+        ]
+      },
+      "relatedTitle": "Need help choosing pricing models?",
+      "relatedDescription": "Compare hourly and project pricing before deciding whether a recurring retainer is the right offer shape.",
+      "relatedCta": "Read the pricing guide"
+    }
+  },
+  "guide": {
+    "meta": {
+      "title": "Hourly vs Project Pricing",
+      "description": "Learn when hourly pricing works, when project pricing works better, and how freelancers can choose between them."
+    },
+    "title": "Hourly vs project pricing: what should you charge?",
+    "description": "Hourly pricing sells time. Project pricing sells an outcome. The better choice depends on scope clarity, delivery risk, and how you want clients to evaluate your work.",
+    "quickTitle": "The short version",
+    "quickText": "Use hourly pricing when the scope is uncertain, advisory, or likely to change. Use project pricing when the deliverable is clear and you want the client to buy the result instead of the time it takes.",
+    "formulaHourly": "hourly price = hourly rate × estimated hours",
+    "formulaProject": "project price = expected effort + risk buffer + revision buffer",
+    "exampleTitle": "A simple comparison",
+    "exampleText": "Imagine a strategy workshop expected to take 10 hours in total. Hourly pricing stays flexible if the scope moves. Project pricing creates a cleaner number but means you carry more scope risk.",
+    "table": {
+      "metric": "Metric",
+      "hourly": "Hourly model",
+      "project": "Project model",
+      "estimatedHours": "Estimated hours",
+      "basePrice": "Base price",
+      "scopeRisk": "Scope risk",
+      "clientPaysMore": "Client pays more if scope grows",
+      "youCarryRisk": "You carry more risk if scope grows"
+    },
+    "whenHourlyTitle": "Use hourly pricing when",
+    "whenProjectTitle": "Use project pricing when",
+    "whenHourly": [
+      "The scope is still changing",
+      "The work is advisory or collaborative",
+      "The client wants transparency on time",
+      "You need to protect against unclear requests"
+    ],
+    "whenProject": [
+      "The deliverable is clearly defined",
+      "The client wants a single fixed number",
+      "You can estimate the work with confidence",
+      "The result matters more than the hours"
+    ],
+    "mistakeTitle": "A common mistake",
+    "mistakeText": "Many freelancers switch to fixed project pricing too early and forget to include revision risk, client communication, and internal admin time. If you use project pricing, keep a clear hourly benchmark underneath it.",
+    "ctaTitle": "Choose with a benchmark first",
+    "ctaText": "If you know your hourly benchmark, it becomes easier to build day rates, project quotes, and retainers without guessing.",
+    "hourlyCta": "Open hourly rate calculator",
+    "retainerCta": "Open retainer calculator"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "paragraphs": [
+        "Rate Kit is designed to work without account creation. You can use the calculators without creating a profile or signing in.",
+        "If analytics is enabled in the future, it will only be used to understand visits, popular pages, and product usage patterns.",
+        "If you contact us by email or form, the information you provide will only be used to respond to your message or improve the product."
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "paragraphs": [
+        "Rate Kit is provided as an informational calculator. Verify important business, tax, legal, and pricing decisions independently before using any result in a live quote or contract.",
+        "You agree not to misuse the website, attempt to disrupt availability, or rely on the tool as legal, tax, or financial advice.",
+        "The service may change over time. If you need support, use the contact method published on the live website."
+      ]
+    }
+  }
+}
