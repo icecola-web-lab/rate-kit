@@ -20,13 +20,12 @@
 本地启动：
 
 ```bash
-nvm use
 pnpm install
 cp .env.example .env.local
 pnpm dev
 ```
 
-推荐 Node 版本：`22.19.0`
+Node：请使用当前稳定版。
 
 环境变量：
 
