@@ -1,5 +1,6 @@
 {
   "nav": {
+    "menu": "菜单",
     "home": "首页",
     "hourlyRate": "时薪计算器",
     "dayRate": "日费率计算器",

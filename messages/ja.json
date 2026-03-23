@@ -1,5 +1,6 @@
 {
   "nav": {
+    "menu": "メニュー",
     "home": "ホーム",
     "hourlyRate": "時間単価計算",
     "dayRate": "日額計算",
